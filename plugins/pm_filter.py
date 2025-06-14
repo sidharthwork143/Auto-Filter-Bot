@@ -604,7 +604,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
                         InlineKeyboardButton('⛩️ Bot Update Channel', url=f'https://telegram.me/filmy_men')
                     ],[
-                        InlineKeyboardButton('🌿 Premium', callback_data='seeplans'),
+                        InlineKeyboardButton('🌿 Premium', callback_data='plans'),
                         InlineKeyboardButton('🎏 About Me', callback_data='about')                       
                     ],[
                         InlineKeyboardButton('📌 Refer', callback_data='reffer'),
